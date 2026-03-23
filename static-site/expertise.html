@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expertise | FME Engineering</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        :root { --f-sans: 'Inter', sans-serif; --f-mono: 'JetBrains Mono', monospace; --f-display: 'Playfair Display', serif; }
+        body { font-family: var(--f-sans); background-color: #f8fafc; color: #0f172a; }
+        .font-mono { font-family: var(--f-mono); }
+        .font-display { font-family: var(--f-display); }
+        .bg-grid { background-size: 4rem 4rem; background-image: linear-gradient(to right, rgba(15, 23, 42, 0.05) 1px, transparent 1px), linear-gradient(to bottom, rgba(15, 23, 42, 0.05) 1px, transparent 1px); }
+    </style>
+</head>
+<body class="antialiased">
+    <nav class="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-xl border-b border-slate-200 h-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex justify-between items-center">
+            <a href="index.html" class="flex items-center gap-3">
+                <div class="grid grid-cols-2 gap-0.5 w-10 h-10">
+                    <div class="bg-[#56b4e9] flex items-center justify-center p-1"><i data-lucide="bus" class="text-white w-full h-full"></i></div>
+                    <div class="bg-[#92d050] flex items-center justify-center p-1"><i data-lucide="accessibility" class="text-white w-full h-full"></i></div>
+                    <div class="bg-[#262626] flex items-center justify-center p-1"><i data-lucide="car" class="text-white w-full h-full"></i></div>
+                    <div class="bg-[#c4bd97] flex items-center justify-center p-1"><i data-lucide="bike" class="text-white w-full h-full"></i></div>
+                </div>
+                <div class="flex flex-col leading-none">
+                    <span class="text-2xl font-bold tracking-tighter text-slate-900">FME</span>
+                    <span class="text-[7px] font-bold tracking-[0.2em] text-slate-500 uppercase">Future Mobility Engineering</span>
+                </div>
+            </a>
+            <div class="hidden lg:flex items-center gap-8 text-sm font-bold text-slate-600 uppercase tracking-widest">
+                <a href="index.html" class="hover:text-teal-600 transition-colors">Home</a>
+                <a href="about.html" class="hover:text-teal-600 transition-colors">About</a>
+                <a href="services.html" class="hover:text-teal-600 transition-colors">Services</a>
+                <a href="sectors.html" class="hover:text-teal-600 transition-colors">Sectors</a>
+                <a href="expertise.html" class="text-teal-600">Expertise</a>
+                <a href="clients.html" class="hover:text-teal-600 transition-colors">Clients</a>
+                <a href="contact.html" class="bg-slate-900 text-white px-6 py-3 rounded-full hover:bg-teal-600 transition-all shadow-lg">Enquire Now</a>
+            </div>
+            <div id="mobile-menu" class="hidden lg:hidden fixed inset-0 top-20 bg-white z-40 border-t border-slate-100 p-4 space-y-4 flex flex-col text-sm font-bold text-slate-600 uppercase tracking-widest">
+                <a href="index.html" class="hover:text-teal-600 p-2">Home</a>
+                <a href="about.html" class="hover:text-teal-600 p-2">About</a>
+                <a href="services.html" class="hover:text-teal-600 p-2">Services</a>
+                <a href="sectors.html" class="hover:text-teal-600 p-2">Sectors</a>
+                <a href="expertise.html" class="text-teal-600 p-2">Expertise</a>
+                <a href="clients.html" class="hover:text-teal-600 p-2">Clients</a>
+                <a href="contact.html" class="hover:text-teal-600 p-2">Contact</a>
+            </div>
+            <button id="menu-toggle" class="lg:hidden p-2 text-slate-600"><i data-lucide="menu"></i></button>
+        </div>
+    </nav>
+
+    <main class="pt-20">
+        <section class="py-24 bg-white bg-grid">
+            <div class="max-w-7xl mx-auto px-4">
+                <div class="max-w-3xl mb-20">
+                    <div class="font-mono text-xs text-teal-600 uppercase tracking-widest font-bold mb-4">Our Expertise</div>
+                    <h1 class="text-6xl font-bold text-slate-900 font-display italic leading-tight">Leading Through <br><span class="text-teal-600 not-italic">Technical Excellence</span></h1>
+                    <p class="text-xl text-slate-600 mt-8 font-light leading-relaxed">FME is a recognized leader in mobility standards and technical consulting, with a focus on inclusive and future-ready engineering.</p>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-20">
+                    <div class="space-y-12">
+                        <div class="space-y-6">
+                            <h3 class="text-3xl font-bold text-slate-900 font-display italic">TGSI Standards Leadership</h3>
+                            <p class="text-lg text-slate-600 leading-relaxed">FME has been at the forefront of developing national standards for Tactile Ground Surface Indicators (TGSIs). Our leadership in the development of SANS 784:2022 ensures that infrastructure is safe and accessible for the visually impaired.</p>
+                        </div>
+                        <div class="space-y-6">
+                            <h3 class="text-3xl font-bold text-slate-900 font-display italic">Project Capabilities</h3>
+                            <p class="text-lg text-slate-600 leading-relaxed">Our team has extensive experience in managing complex infrastructure projects, from initial feasibility through to construction and operational readiness. We specialize in BRT systems, urban precincts, and multi-modal transport hubs.</p>
+                        </div>
+                    </div>
+                    <div class="space-y-12">
+                        <div class="bg-slate-900 p-12 rounded-3xl text-white space-y-8">
+                            <div class="font-mono text-xs text-teal-400 uppercase tracking-widest font-bold">Key Areas</div>
+                            <ul class="space-y-6">
+                                <li class="flex items-start gap-4">
+                                    <div class="w-8 h-8 bg-teal-600/20 rounded-lg flex items-center justify-center text-teal-400 shrink-0"><i data-lucide="check" class="w-5 h-5"></i></div>
+                                    <div>
+                                        <h4 class="font-bold text-lg mb-1">Universal Access Audits</h4>
+                                        <p class="text-slate-400 text-sm">Comprehensive assessments of infrastructure against accessibility standards.</p>
+                                    </div>
+                                </li>
+                                <li class="flex items-start gap-4">
+                                    <div class="w-8 h-8 bg-teal-600/20 rounded-lg flex items-center justify-center text-teal-400 shrink-0"><i data-lucide="check" class="w-5 h-5"></i></div>
+                                    <div>
+                                        <h4 class="font-bold text-lg mb-1">BRT Infrastructure Design</h4>
+                                        <p class="text-slate-400 text-sm">Detailed design of stations, lanes, and integrated urban environments.</p>
+                                    </div>
+                                </li>
+                                <li class="flex items-start gap-4">
+                                    <div class="w-8 h-8 bg-teal-600/20 rounded-lg flex items-center justify-center text-teal-400 shrink-0"><i data-lucide="check" class="w-5 h-5"></i></div>
+                                    <div>
+                                        <h4 class="font-bold text-lg mb-1">Strategic Advisory</h4>
+                                        <p class="text-slate-400 text-sm">High-level consulting for policy development and transport master planning.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-slate-950 text-slate-500 py-20 px-4 border-t border-slate-900">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
+            <div class="flex items-center gap-3"><span class="text-white font-bold tracking-tighter text-2xl">FME Engineering</span></div>
+            <div class="text-sm">© 2026 Future Mobility Engineering (FME). All rights reserved.</div>
+            <div class="flex gap-8 text-xs font-bold uppercase tracking-widest">
+                <a href="#" class="hover:text-white">Privacy Policy</a>
+                <a href="#" class="hover:text-white">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        lucide.createIcons();
+        const menuToggle = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuToggle.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>

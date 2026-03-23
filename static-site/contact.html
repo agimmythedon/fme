@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | FME Engineering</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        :root { --f-sans: 'Inter', sans-serif; --f-mono: 'JetBrains Mono', monospace; --f-display: 'Playfair Display', serif; }
+        body { font-family: var(--f-sans); background-color: #f8fafc; color: #0f172a; }
+        .font-mono { font-family: var(--f-mono); }
+        .font-display { font-family: var(--f-display); }
+        .bg-grid { background-size: 4rem 4rem; background-image: linear-gradient(to right, rgba(15, 23, 42, 0.05) 1px, transparent 1px), linear-gradient(to bottom, rgba(15, 23, 42, 0.05) 1px, transparent 1px); }
+    </style>
+</head>
+<body class="antialiased">
+    <nav class="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-xl border-b border-slate-200 h-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex justify-between items-center">
+            <a href="index.html" class="flex items-center gap-3">
+                <div class="grid grid-cols-2 gap-0.5 w-10 h-10">
+                    <div class="bg-[#56b4e9] flex items-center justify-center p-1"><i data-lucide="bus" class="text-white w-full h-full"></i></div>
+                    <div class="bg-[#92d050] flex items-center justify-center p-1"><i data-lucide="accessibility" class="text-white w-full h-full"></i></div>
+                    <div class="bg-[#262626] flex items-center justify-center p-1"><i data-lucide="car" class="text-white w-full h-full"></i></div>
+                    <div class="bg-[#c4bd97] flex items-center justify-center p-1"><i data-lucide="bike" class="text-white w-full h-full"></i></div>
+                </div>
+                <div class="flex flex-col leading-none">
+                    <span class="text-2xl font-bold tracking-tighter text-slate-900">FME</span>
+                    <span class="text-[7px] font-bold tracking-[0.2em] text-slate-500 uppercase">Future Mobility Engineering</span>
+                </div>
+            </a>
+            <div class="hidden lg:flex items-center gap-8 text-sm font-bold text-slate-600 uppercase tracking-widest">
+                <a href="index.html" class="hover:text-teal-600 transition-colors">Home</a>
+                <a href="about.html" class="hover:text-teal-600 transition-colors">About</a>
+                <a href="services.html" class="hover:text-teal-600 transition-colors">Services</a>
+                <a href="sectors.html" class="hover:text-teal-600 transition-colors">Sectors</a>
+                <a href="expertise.html" class="hover:text-teal-600 transition-colors">Expertise</a>
+                <a href="clients.html" class="hover:text-teal-600 transition-colors">Clients</a>
+                <a href="contact.html" class="text-teal-600">Enquire Now</a>
+            </div>
+            <div id="mobile-menu" class="hidden lg:hidden fixed inset-0 top-20 bg-white z-40 border-t border-slate-100 p-4 space-y-4 flex flex-col text-sm font-bold text-slate-600 uppercase tracking-widest">
+                <a href="index.html" class="hover:text-teal-600 p-2">Home</a>
+                <a href="about.html" class="hover:text-teal-600 p-2">About</a>
+                <a href="services.html" class="hover:text-teal-600 p-2">Services</a>
+                <a href="sectors.html" class="hover:text-teal-600 p-2">Sectors</a>
+                <a href="expertise.html" class="hover:text-teal-600 p-2">Expertise</a>
+                <a href="clients.html" class="hover:text-teal-600 p-2">Clients</a>
+                <a href="contact.html" class="text-teal-600 p-2">Contact</a>
+            </div>
+            <button id="menu-toggle" class="lg:hidden p-2 text-slate-600"><i data-lucide="menu"></i></button>
+        </div>
+    </nav>
+
+    <main class="pt-20">
+        <section class="py-24 bg-white bg-grid">
+            <div class="max-w-7xl mx-auto px-4">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-20">
+                    <div class="space-y-12">
+                        <div class="font-mono text-xs text-teal-600 uppercase tracking-widest font-bold">Contact Us</div>
+                        <h1 class="text-6xl font-bold text-slate-900 font-display italic leading-tight">Let's Build the <br><span class="text-teal-600 not-italic">Future Together</span></h1>
+                        <p class="text-xl text-slate-600 font-light leading-relaxed">Have a project in mind or want to learn more about our services? Get in touch with our team today.</p>
+                        
+                        <div class="space-y-8 pt-8">
+                            <div class="flex items-center gap-6">
+                                <div class="w-12 h-12 bg-teal-50 rounded-xl flex items-center justify-center text-teal-600"><i data-lucide="mail"></i></div>
+                                <div>
+                                    <div class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Email Us</div>
+                                    <div class="text-lg font-bold text-slate-900">info@fme-engineering.co.za</div>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-6">
+                                <div class="w-12 h-12 bg-teal-50 rounded-xl flex items-center justify-center text-teal-600"><i data-lucide="phone"></i></div>
+                                <div>
+                                    <div class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Call Us</div>
+                                    <div class="text-lg font-bold text-slate-900">+27 (0) 12 345 6789</div>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-6">
+                                <div class="w-12 h-12 bg-teal-50 rounded-xl flex items-center justify-center text-teal-600"><i data-lucide="map-pin"></i></div>
+                                <div>
+                                    <div class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Visit Us</div>
+                                    <div class="text-lg font-bold text-slate-900">Pretoria, South Africa</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-slate-900 p-12 rounded-3xl shadow-2xl">
+                        <form class="space-y-6">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div class="space-y-2">
+                                    <label class="text-xs font-bold text-slate-400 uppercase tracking-widest">Full Name</label>
+                                    <input type="text" class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-teal-500 transition-colors" placeholder="John Doe">
+                                </div>
+                                <div class="space-y-2">
+                                    <label class="text-xs font-bold text-slate-400 uppercase tracking-widest">Email Address</label>
+                                    <input type="email" class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-teal-500 transition-colors" placeholder="john@example.com">
+                                </div>
+                            </div>
+                            <div class="space-y-2">
+                                <label class="text-xs font-bold text-slate-400 uppercase tracking-widest">Subject</label>
+                                <input type="text" class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-teal-500 transition-colors" placeholder="Project Inquiry">
+                            </div>
+                            <div class="space-y-2">
+                                <label class="text-xs font-bold text-slate-400 uppercase tracking-widest">Message</label>
+                                <textarea rows="5" class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-teal-500 transition-colors" placeholder="How can we help you?"></textarea>
+                            </div>
+                            <button type="submit" class="w-full bg-teal-600 text-white font-bold py-4 rounded-xl hover:bg-teal-700 transition-all shadow-lg flex items-center justify-center gap-3">Send Message <i data-lucide="send" class="w-4 h-4"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-slate-950 text-slate-500 py-20 px-4 border-t border-slate-900">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
+            <div class="flex items-center gap-3"><span class="text-white font-bold tracking-tighter text-2xl">FME Engineering</span></div>
+            <div class="text-sm">© 2026 Future Mobility Engineering (FME). All rights reserved.</div>
+            <div class="flex gap-8 text-xs font-bold uppercase tracking-widest">
+                <a href="#" class="hover:text-white">Privacy Policy</a>
+                <a href="#" class="hover:text-white">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        lucide.createIcons();
+        const menuToggle = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuToggle.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
